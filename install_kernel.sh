@@ -333,7 +333,7 @@ function installSoftDownload(){
 
 # 更新本脚本
 function upgradeScript(){
-    wget -Nq --no-check-certificate -O ./install_kernel.sh "https://raw.githubusercontent.com/jinwyp/one_click_script/master/install_kernel.sh"
+    wget -Nq --no-check-certificate -O ./install_kernel.sh "https://raw.githubusercontent.com/noevers/one_click_script/master/install_kernel.sh"
     green " Script upgrade successful. 本脚本升级成功! "
     chmod +x ./install_kernel.sh
     sleep 2s
@@ -2033,6 +2033,8 @@ function installDebianUbuntuKernel(){
 
             elif [ "${linuxKernelToInstallVersion}" = "4.14" ]; then
                 bbrplusDownloadUrl="https://github.com/UJX6N/bbrplus/releases/download/${linuxKernelToInstallVersionFull}"
+			elif [ "${linuxKernelToInstallVersion}" = "6.7" ]; then
+                bbrplusDownloadUrl="https://github.com/UJX6N/bbrplus-6.x_stable/releases/download/${linuxKernelToInstallVersionFull}"
 
             else
                 bbrplusDownloadUrl="https://github.com/UJX6N/bbrplus-${linuxKernelToInstallVersion}/releases/download/${linuxKernelToInstallVersionFull}"
