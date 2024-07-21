@@ -1,8 +1,6 @@
 # Easy install latest or LTS linux kernel and enable BBR or BBR plus
 
 ### [中文文档](/KERNEL_CN.md)
-### [xray v2ray trojan shadowsocks install script](/README2.md)
-### [xray v2ray trojan shadowsocks 一键安装脚本 中文](/README2_CN.md)
 ### [install script for docker, Nodejs, Joplin, Jitsi Meet, Focalboard, FreeGPT and more ](TOOL.md)
 ### [Docker Nodejs Joplin笔记 视频会议 Alist网盘 免费GPT 一键安装脚本 中文 ](TOOL_CN.md)
 
@@ -29,26 +27,23 @@ Thanks for support this project. Check on [patreon](https://www.patreon.com/linu
 
 ## Installation
 
-#### via bash
-```bash
-bash <(curl -Lso- https://git.io/kernel.sh)
 ```
 #### via curl to install script
 
 ```bash
-curl -O https://raw.githubusercontent.com/jinwyp/one_click_script/master/install_kernel.sh && chmod +x ./install_kernel.sh && ./install_kernel.sh
+curl -O https://raw.githubusercontent.com/noevers/one_click_script/master/install_kernel.sh && chmod +x ./install_kernel.sh && ./install_kernel.sh
 ```
 
 
 #### via wget to install script
 
 ```bash
-wget --no-check-certificate https://raw.githubusercontent.com/jinwyp/one_click_script/master/install_kernel.sh && chmod +x ./install_kernel.sh && ./install_kernel.sh
+wget --no-check-certificate https://raw.githubusercontent.com/noevers/one_click_script/master/install_kernel.sh && chmod +x ./install_kernel.sh && ./install_kernel.sh
 ```
 
 
 
-![功能列表3](https://github.com/jinwyp/one_click_script/blob/master/docs/readme3_en.png?raw=true)
+![功能列表3](https://github.com/noevers/one_click_script/blob/master/docs/readme3_en.png?raw=true)
 
 
 
@@ -88,14 +83,14 @@ wget --no-check-certificate https://raw.githubusercontent.com/jinwyp/one_click_s
 #### via wget to install script
 
 ```bash
-wget --no-check-certificate https://raw.githubusercontent.com/jinwyp/one_click_script/master/netflix_check.sh && chmod +x ./netflix_check.sh && ./netflix_check.sh
+wget --no-check-certificate https://raw.githubusercontent.com/noevers/one_click_script/master/netflix_check.sh && chmod +x ./netflix_check.sh && ./netflix_check.sh
 ```
 
 
 ####  via curl to install script
 
 ```bash
-curl -O https://raw.githubusercontent.com/jinwyp/one_click_script/master/netflix_check.sh && chmod +x ./netflix_check.sh && ./netflix_check.sh
+curl -O https://raw.githubusercontent.com/noevers/one_click_script/master/netflix_check.sh && chmod +x ./netflix_check.sh && ./netflix_check.sh
 ```
 
 
